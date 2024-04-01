@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    border: 2px solid rgb(78, 76, 76);
+    border-radius: 10px;
+}
+
+.header {
+    background-color: rgb(222, 217, 217);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 2px solid gray;
+
+    h3 {
+        margin-right: 230px;
+
+    }
+}
+
+.circle {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-left: 5px;
+    font-size: 8px;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.main_elapse {
+
+    background-color: azure;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    p {
+        width: 100px;
+        font-weight: 800;
+        font-size: large;
+        margin-left: 10px;
+    }
+}
+
+.elapse {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    padding: 10px 0;
+
+    h3 {
+        width: 45%;
+        margin-left: 10px;
+    }
+}
+
+.elapse_bar {
+    width: 30%;
+    height: 25px;
+
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 10px 0;
+
+    h3 {
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    input {
+        width: 80%;
+        margin: 0 15px;
+    }
+}
+
+.buttons {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+
+    button {
+        width: 30%;
+        background-color: lightgrey;
+        /* border: 2px solid grey; */
+    }
+
+}
+
+.buttons button:hover {
+    background-color: lightblue;
+    box-shadow: 2px 2px 5px grey;
+    border: none;
+}
+
+.buttons button:active {
+    border-style: none;
+    border: 0px;
+}
